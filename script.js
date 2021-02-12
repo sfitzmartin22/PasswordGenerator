@@ -30,7 +30,7 @@ function generatePassword() {
 
  // Message to user if they do not pick a number in the range //
  if (length < 8 || length > 128) {
-   alert("You must select a number between 1 and 128 to continue")
+   alert("You must select a number between 8 and 128 to continue")
  }
 
  // if the user selects the length of the password in the appropriate range then it will ask them what character types they want to use //
